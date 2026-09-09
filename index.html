@@ -8,7 +8,11 @@
 <meta property="og:title" content="Judith Ogochukwu Machie — Social Media Manager & Digital Marketer">
 <meta property="og:description" content="I turn quiet social media profiles into strategic business assets that build visibility, trust and organic leads.">
 <meta property="og:type" content="website">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%230F4C5C'/><text x='16' y='22' font-family='Helvetica,Arial' font-size='16' font-weight='700' fill='%23C65D21' text-anchor='middle'>J</text></svg>">
+<meta name="theme-color" content="#0F4C5C">
+<meta property="og:image" content="https://machie-ogochukwu.github.io/machie-ogochukwu/judit.jpeg">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
@@ -25,7 +29,7 @@
   --rule-soft:rgba(15,76,92,.09);
   --display:'Archivo',system-ui,sans-serif;
   --text:'Newsreader',Georgia,serif;
-  --pad:clamp(1.25rem,5vw,5rem);
+  --pad:clamp(1.75rem,6vw,6rem);
 }
 
 *{box-sizing:border-box}
@@ -132,7 +136,7 @@ p:last-child{margin-bottom:0}
   position:relative;aspect-ratio:4/5;background:var(--teal);
   border-radius:2px;overflow:hidden;box-shadow:14px 14px 0 rgba(198,93,33,.16);
 }
-.portrait img{width:100%;height:100%;object-fit:cover}
+.portrait img{width:100%;height:100%;object-fit:cover;object-position:50% 18%}
 .portrait-fallback{
   position:absolute;inset:0;display:grid;place-items:center;
   font-family:var(--display);font-weight:700;font-size:3.4rem;color:rgba(255,255,255,.28);letter-spacing:.02em;
@@ -290,8 +294,7 @@ details.dd li::before{content:"";position:absolute;left:0;top:.68em;width:5px;he
     <div class="wrap about-grid">
       <figure class="portrait" style="margin:0">
         <span class="portrait-fallback" aria-hidden="true">JOM</span>
-        <!-- Replace with a real photo: save it as assets/judith.jpg -->
-        <img src="assets/judith.jpg" alt="Judith Ogochukwu Machie" onerror="this.remove()">
+        <img src="judit.jpeg" alt="Portrait of Judith Ogochukwu Machie" loading="lazy" onerror="this.remove()">
       </figure>
 
       <div>
